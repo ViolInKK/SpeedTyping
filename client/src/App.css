@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App input{
+  border-style: none;
+  user-select: none;
+  font-size: 1.7rem;
+  margin: 1em;
+  display: hidden;
+  opacity: 0;
+}
+
+.App input:focus{
+  outline: none;
+}
+
+/* .words{
+  display: inline;
+} */
+
+.word{
+  display: inline;
+}
+
+.correct{
+  color: rgb(12, 168, 12);
+}
+
+.incorrect{
+  color: red;
+}
+
+.active{
+  color: #7bd6ff
+}
+
+.words-box{
+  max-width: 70%;
+   /* height: 16%; 
+   overflow: hidden;  */
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.blur{
+  max-width: 70%;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  filter: blur(10px);
+}
+
+.words-box p{
+  transform: translateY(-0px);
+}
+
+.Timer{
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  padding-bottom: 1em;
+}
+
+.Timer-settings{
+  padding-bottom: 1em;
+  font-size: 1.2rem;
+}
